@@ -1,0 +1,59 @@
+/* 2020-11-28 16:34:42 */
+
+
+.rs-header .menu-area .logo-area img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.readon{
+    background: #0841ad !important;
+}
+
+.rs-header.transparent-header .rs-menu ul.nav-menu li a{
+    color : #f44d14 !important;
+}
+
+.rs-header .menu-area .logo-area a img{
+    vertical-align : middle !important
+}
+
+.rs-banner .banner-text-part .banner-title{
+    text-transform: capitalize;
+}
+
+.rs-header.transparent-header .menu-area{
+    background : #fff !important;
+}
+
+.rs-banner{
+    background : url('../images/banner/banner-bg-orange.png') !important;
+}
+
+.listying li:before, .check-list li:before, .check-list-box li:before, .check-list-circle li:before
+{
+    color : #f44d14 !important;
+}
+
+.rs-services .single-service .service-icon i{
+    color : #1c51b4 !important;
+    border : 2px solid #f44d14 !important;
+}
+
+#scrollUp i{
+    background: #f44d14 !important;
+}
+
+.spine-reverse{
+    width : 65% !important;
+}
+
+.spine2{
+    width : 78% !important;
+}
+
+@media screen and (min-width: 992px){
+    .rs-header .menu-area.menu-sticky {
+        border-bottom: 2px solid #f44d14 !important;
+    }
+}
