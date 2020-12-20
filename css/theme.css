@@ -57,3 +57,10 @@
         border-bottom: 2px solid #f44d14 !important;
     }
 }
+
+
+@media only screen and (max-width: 991px){
+    .rs-menu-toggle{
+        color : #0b44ae !important;
+    }
+}
