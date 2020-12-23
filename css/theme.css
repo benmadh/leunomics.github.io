@@ -52,6 +52,23 @@
     width : 78% !important;
 }
 
+.rs-footer .footer-widget .social-links li a{
+    color: #f44d14 !important;
+}
+
+.rs-footer .footer-form .form-input{
+    background: #f44d14 !important;
+    color : #fff !important;
+}
+
+.rs-footer .footer-form .form-button{
+    background: #0841ad !important;
+}
+
+.rs-footer .footer-form .form-input::placeholder{
+    color : #fff;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
