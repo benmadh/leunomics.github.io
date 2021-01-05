@@ -69,6 +69,34 @@
     color : #fff;
 }
 
+
+.data-title{
+    color: #374358;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#data-dynmic,
+#data-user,
+#data-pro{
+    border : none !important
+}
+
+.dat-images{
+    border-radius: 125px 0px 100px 0px;
+}
+
+.slick-dots li button:before{
+    font-size: 20px !important;
+    color: #f44d14 !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color : #0841ad !important;
+    opacity: 1 !important;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
