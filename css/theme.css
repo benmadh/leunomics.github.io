@@ -97,6 +97,18 @@
     opacity: 1 !important;
 }
 
+.rs-skillbar .rs-skill-bar .skillbar .skillbar-bar{
+    background: #f44d14 !important;
+}
+
+.rs-skillbar .rs-skill-bar .skillbar .skillbar-bar:after{
+    background: #0841ad !important;
+}
+
+.rs-skillbar .rs-skill-bar .skillbar .skill-bar-percent{
+    color : #0841ad !important;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
