@@ -109,6 +109,26 @@
     color : #0841ad !important;
 }
 
+.rs-header.transparent-header .rs-menu ul.nav-menu li a:hover{
+    color : #0841ad !important;
+}
+
+.rs-blog-grid .single-blog .blog-item-text .blog-details .blog-author .category:after{
+    background: #f44d14 !important;
+}
+
+.rs-blog-grid .single-blog .blog-item-text .blog-details .blog-author .category a:hover{
+    color : #0841ad !important;
+}
+
+.rs-blog-grid .single-blog .blog-item-text .blog-details .blog-title a:hover{
+    color : #0841ad !important;
+}
+
+.rs-blog-grid .single-blog .blog-item-text .blog-details .readmore-btn:hover{
+    color: #0841ad;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
