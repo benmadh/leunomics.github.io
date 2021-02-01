@@ -129,6 +129,14 @@
     color: #0841ad;
 }
 
+.rs-team .team-item .content-part .name{
+    background: #f44d14 !important;
+}
+
+.rs-team .team-item .content-part .category{
+    background: #0841ad !important;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
