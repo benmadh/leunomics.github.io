@@ -130,11 +130,23 @@
 }
 
 .rs-team .team-item .content-part .name{
-    background: #f44d14 !important;
+    background: #0841ad !important;
 }
 
 .rs-team .team-item .content-part .category{
     background: #0841ad !important;
+}
+
+.rs-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .categories ul li{
+    color: #fff !important;
+}
+
+.rs-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .categories ul li:after{
+    color: #fff !important;
+}
+
+.rs-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .categories ul li a{
+    color: #fff !important;
 }
 
 @media screen and (min-width: 992px){
