@@ -205,10 +205,12 @@
                             <div class="news-info">
                                 <p>Subscribe to our newsletter for updates!</p>
                             </div>
-                            <form class="footer-form">
-                                <input type="text" class="form-input" placeholder="Enter Your Email">
-                                <button type="submit" class="form-button">Submit</button>
+                            <form id="newsletter" class="footer-form">
+                                <input type="text" class="form-input" placeholder="Enter Your Email" id="email">
+                                <button type="button" class="form-button">Submit</button>
                             </form>
+                            <br>
+                            <div id="success"></div>
                         </div>
                     </div>
                 </div>
@@ -241,6 +243,27 @@
     <script src="js/plugins.js"></script>
     <!-- main js -->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/stein-js-client"></script>
+
+        <script>
+        $('.form-button').click(function () {
+            var email = $('#email').val();
+            console.log(email);
+
+            const store = new SteinStore("https://api.steinhq.com/v1/storages/603bec42f62b6004b3eb66d7");
+
+            store.append("Sheet1", [{
+                    email: email,
+                }])
+                .then(res => {
+
+                    $('#success').text('Thank you for subscribing!');
+                    $('#success').fadeOut(8000);
+                    $('#email').val("");
+                    console.log(res);
+                });
+        });
+    </script>
 </body>
 
 </html>
