@@ -149,6 +149,11 @@
     color: #fff !important;
 }
 
+
+.rs-header.transparent-header{
+    position: fixed !important;
+}
+
 @media screen and (min-width: 992px){
     .rs-header .menu-area.menu-sticky {
         border-bottom: 2px solid #f44d14 !important;
@@ -160,4 +165,9 @@
     .rs-menu-toggle{
         color : #0b44ae !important;
     }
+}
+
+#success{
+    color: #f44d14;
+    font-weight: 600;
 }
